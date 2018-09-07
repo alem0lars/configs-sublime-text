@@ -1,0 +1,8 @@
+elems:
+
+  - src:  ^(.+\.sublime-settings)$
+    dst:  ~/.config/sublime-text-3/Packages/User/<1>
+    only: f?sublime-text
+
+
+# vim: set filetype=eruby.yaml :

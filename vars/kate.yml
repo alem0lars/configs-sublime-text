@@ -1,0 +1,5 @@
+# => inherits: generic <= #
+
+browser: chromium
+
+# vim: set filetype=eruby.yaml :

@@ -1,0 +1,80 @@
+// ────────────────────────────────────────────────────────────────────────────┐
+//                                                                             │
+// File informations:                                                          │
+// - Name:    elems/Preferences.sublime-settings.tt                            │
+// - Summary: Sublime Text standalone configuration.                           │
+// - Authors:                                                                  │
+//   - Alessandro Molari <molari.alessandro@gmail.com> (alem0lars)             │
+//                                                                             │
+// Project informations:                                                       │
+//   - Homepage:        https://github.com/alem0lars/configs-sublime-text      │
+//   - Getting started: see README.md in the project root folder               │
+//                                                                             │
+// License: Apache v2.0 (see below)                                            │
+//                                                                             │
+// ────────────────────────────────────────────────────────────────────────────┤
+//                                                                             │
+// Licensed to the Apache Software Foundation (ASF) under one more contributor │
+// license agreements.  See the NOTICE file distributed with this work for     │
+// additional information regarding copyright ownership. The ASF licenses this │
+// file to you under the Apache License, Version 2.0 (the "License"); you may  │
+// not use this file except in compliance with the License.                    │
+// You may obtain a copy of the License at                                     │
+//                                                                             │
+//   http://www.apache.org/licenses/LICENSE-2.0                                │
+//                                                                             │
+// Unless required by applicable law or agreed to in writing, software         │
+// distributed under the License is distributed on an "AS IS" BASIS, WITHOUT   │
+// WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.            │
+// See the License for the specific language governing permissions and         │
+// limitations under the License.                                              │
+//                                                                             │
+// ────────────────────────────────────────────────────────────────────────────┤
+<% define_locals do
+end -%>
+// ────────────────────────────────────────────────────────────────────────────┘
+
+
+{
+	"auto_complete_cycle": true,
+	"auto_find_in_selection": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/DA UI/DA Dark.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	],
+	"font_face": "Fira Code",
+	"font_options":
+	[
+		"dlig",
+		"ss01"
+	],
+	"font_size": 9,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Markdown"
+	],
+	"margin": 2,
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"theme": "DA.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
+
+
+// vim: set filetype=eruby.json :
