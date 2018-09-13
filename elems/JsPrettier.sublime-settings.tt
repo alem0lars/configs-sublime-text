@@ -1,8 +1,8 @@
 // ────────────────────────────────────────────────────────────────────────────┐
 //                                                                             │
 // File informations:                                                          │
-// - Name:    elems/Package Control.sublime-settings.tt                        │
-// - Summary: Configuration of Package Control plugin.                         │
+// - Name:    elems/JsPrettier.sublime-settings.tt                             │
+// - Summary: Configuration of JsPrettier plugin.                              │
 // - Authors:                                                                  │
 //   - Alessandro Molari <molari.alessandro@gmail.com> (alem0lars)             │
 //                                                                             │
@@ -36,44 +36,26 @@ end -%>
 
 
 {
-  "bootstrapped": true,
-  "in_process_packages":
-  [
+  "auto_format_on_save": true,
+  "auto_format_on_save_excludes": [
+    "*/node_modules/*",
+    "*/build/*",
+    "*/out/*"
   ],
-  "installed_packages":
-  [
-    "A File Icon",
-    "AdvancedNewFile",
-    "Alignment",
-    "AutoFileName",
-    "Babel",
-    "BracketHighlighter",
-    "DA UI",
-    "DocBlockr",
-    "DotENV",
-    "EditorConfig",
-    "Emmet",
-    "ESLint-Formatter",
-    "Git",
-    "GraphQL",
-    "JsonTree",
-    "JsPrettier",
-    "LiveReload",
-    "Markdown Table Formatter",
-    "MarkdownEditing",
-    "MarkdownPreview",
-    "MarkdownTOC",
-    "Open URL",
-    "PowerShell",
-    "SideBarEnhancements",
-    "SublimeLinter",
-    "SublimeLinter-annotations",
-    "SublimeLinter-clang",
-    "SublimeLinter-eslint",
-    "SublimeLinter-json",
-    "Sublimerge 3",
-    "tern_for_sublime"
-  ]
+  "auto_format_on_save_requires_prettier_config": true,
+  "allow_inline_formatting": true,
+  "prettier_options": {
+    "printWidth": 80,
+    "singleQuote": false,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "parser": "babylon",
+    "semi": true,
+    "requirePragma": false,
+    "proseWrap": "preserve",
+    "arrowParens": "avoid"
+  }
 }
 
 
