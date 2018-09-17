@@ -37,9 +37,7 @@ end -%>
 
 {
   "bootstrapped": true,
-  "in_process_packages":
-  [
-  ],
+  "in_process_packages": [],
   "installed_packages":
   [
     "A File Icon",
@@ -56,6 +54,7 @@ end -%>
     "ESLint-Formatter",
     "Git",
     "GraphQL",
+    "Jinja2",
     "JsonTree",
     "JsPrettier",
     "LiveReload",
@@ -64,7 +63,9 @@ end -%>
     "MarkdownPreview",
     "MarkdownTOC",
     "Open URL",
+    "Package Control",
     "PowerShell",
+    "SaltStack-related syntax highlighting and snippets",
     "SideBarEnhancements",
     "SublimeLinter",
     "SublimeLinter-annotations",
