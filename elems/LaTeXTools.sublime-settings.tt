@@ -1,8 +1,8 @@
 // ────────────────────────────────────────────────────────────────────────────┐
 //                                                                             │
 // File informations:                                                          │
-// - Name:    elems/Package Control.sublime-settings.tt                        │
-// - Summary: Configuration of Package Control plugin.                         │
+// - Name:    elems/EditorConfig.sublime-settings.tt                           │
+// - Summary: Configuration of EditorConfig plugin.                            │
 // - Authors:                                                                  │
 //   - Alessandro Molari <molari.alessandro@gmail.com> (alem0lars)             │
 //                                                                             │
@@ -36,46 +36,9 @@ end -%>
 
 
 {
-  "bootstrapped": true,
-  "in_process_packages": [],
-  "installed_packages":
-  [
-     "A File Icon",
-     "AdvancedNewFile",
-     "Alignment",
-     "AutoFileName",
-     "Babel",
-     "BracketHighlighter",
-     "DA UI",
-     "DocBlockr",
-     "DotENV",
-     "EditorConfig",
-     "Emmet",
-     "ESLint-Formatter",
-     "Git",
-     "GraphQL",
-     "Jinja2",
-     "JsonTree",
-     "JsPrettier",
-     "LaTeXTools",
-     "LiveReload",
-     "Markdown Table Formatter",
-     "MarkdownEditing",
-     "MarkdownPreview",
-     "MarkdownTOC",
-     "Open URL",
-     "Package Control",
-     "PowerShell",
-     "SaltStack-related syntax highlighting and snippets",
-     "SideBarEnhancements",
-     "SublimeLinter",
-     "SublimeLinter-annotations",
-     "SublimeLinter-clang",
-     "SublimeLinter-eslint",
-     "SublimeLinter-json",
-     "Sublimerge 3",
-     "tern_for_sublime"
-  ]
+  "env_auto_trigger": true,
+  "preview_math_latex_compile_program": "xelatex",
+  "viewer": "foxitreader"
 }
 
 
