@@ -38,7 +38,7 @@ end -%>
 {
   "env_auto_trigger": true,
   "preview_math_latex_compile_program": "xelatex",
-  "viewer": "foxitreader"
+  "viewer": "zathura"
 }
 
 
