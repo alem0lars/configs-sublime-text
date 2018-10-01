@@ -70,6 +70,7 @@ end -%>
 	"save_on_focus_lost": true,
 	"show_encoding": true,
 	"show_line_endings": true,
+  "always_show_minimap_viewport": true,
 	"tab_size": 2,
 	"theme": "DA.sublime-theme",
 	"translate_tabs_to_spaces": true,
