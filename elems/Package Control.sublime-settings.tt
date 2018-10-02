@@ -66,6 +66,7 @@ end -%>
      "Open URL",
      "Package Control",
      "PowerShell",
+     "Project Specific Syntax Settings",
      "SaltStack-related syntax highlighting and snippets",
      "SideBarEnhancements",
      "SublimeLinter",
