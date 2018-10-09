@@ -70,7 +70,6 @@ end -%>
      "PowerShell",
      "Project Specific Syntax Settings",
      "SaltStack-related syntax highlighting and snippets",
-     "SidebarHoverToggle",
      "SideBarEnhancements",
      "SublimeLinter",
      "SublimeLinter-annotations",
