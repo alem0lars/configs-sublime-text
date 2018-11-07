@@ -1,8 +1,8 @@
 // ────────────────────────────────────────────────────────────────────────────┐
 //                                                                             │
 // File informations:                                                          │
-// - Name:    elems/Package Control.sublime-settings.tt                        │
-// - Summary: Configuration of Package Control plugin.                         │
+// - Name:    elems/Markdown (Standard).sublime-settings.tt                    │
+// - Summary: Configuration of MarkdownEditing plugin.                         │
 // - Authors:                                                                  │
 //   - Alessandro Molari <molari.alessandro@gmail.com> (alem0lars)             │
 //                                                                             │
@@ -36,49 +36,12 @@ end -%>
 
 
 {
-  "bootstrapped": true,
-  "in_process_packages": [],
-  "installed_packages":
-  [
-     "A File Icon",
-     "AdvancedNewFile",
-     "Alignment",
-     "AutoFileName",
-     "Babel",
-     "BracketHighlighter",
-     "DA UI",
-     "DocBlockr",
-     "DotENV",
-     "EditorConfig",
-     "Emmet",
-     "ESLint-Formatter",
-     "Generic Config",
-     "Git",
-     "GraphQL",
-     "Haproxy",
-     "Jinja2",
-     "JsonTree",
-     "JsPrettier",
-     "LaTeXTools",
-     "LiveReload",
-     "Markdown Table Formatter",
-     "MarkdownEditing",
-     "MarkdownLivePreview",
-     "MarkdownTOC",
-     "Open URL",
-     "Package Control",
-     "PowerShell",
-     "Project Specific Syntax Settings",
-     "SaltStack-related syntax highlighting and snippets",
-     "SideBarEnhancements",
-     "SublimeLinter",
-     "SublimeLinter-annotations",
-     "SublimeLinter-clang",
-     "SublimeLinter-eslint",
-     "SublimeLinter-json",
-     "Sublimerge 3",
-     "tern_for_sublime"
-  ]
+  "rulers": [80],
+  "mde.list_indent_bullets": ["-"],
+  "mde.lint": {
+    "md003": "atx",
+    "md004": "dash"
+  }
 }
 
 

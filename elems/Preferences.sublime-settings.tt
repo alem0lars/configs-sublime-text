@@ -36,45 +36,47 @@ end -%>
 
 
 {
-	"auto_complete_cycle": true,
-	"auto_find_in_selection": true,
-	"bold_folder_labels": true,
-	"color_scheme": "Packages/DA UI/DA Dark.tmTheme",
-	"ensure_newline_at_eof_on_save": true,
-	"folder_exclude_patterns":
-	[
-		".svn",
-		".git",
-		".hg",
-		"CVS",
-		"node_modules"
-	],
-	"font_face": "Fira Code",
-	"font_options":
-	[
-		"dlig",
-		"ss01"
-	],
-	"font_size": 9,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Markdown"
-	],
-	"margin": 2,
-	"rulers":
-	[
-		80
-	],
-	"save_on_focus_lost": true,
-	"show_encoding": true,
-	"show_line_endings": true,
+  "auto_complete_cycle": true,
+  "auto_find_in_selection": true,
+  "bold_folder_labels": true,
+  "color_scheme": "Packages/DA UI/DA Dark.tmTheme",
+  "ensure_newline_at_eof_on_save": true,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "node_modules"
+  ],
+  "font_face": "Fira Code",
+  "font_options":
+  [
+    "dlig",
+    "ss01"
+  ],
+  "font_size": 9,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Markdown"
+  ],
+  "margin": 2,
+  "rulers":
+  [
+    80
+  ],
+  "save_on_focus_lost": true,
+  "show_encoding": true,
+  "show_line_endings": true,
   "always_show_minimap_viewport": true,
-	"tab_size": 2,
-	"theme": "DA.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+  "tab_size": 2,
+  "theme": "DA.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "spell_check": true,
+  "dictionary": "Packages/Language - English/en_US.dic",
+  "trim_trailing_white_space_on_save": true
 }
 
 
