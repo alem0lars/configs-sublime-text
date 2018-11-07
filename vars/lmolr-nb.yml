@@ -3,7 +3,7 @@
 browser: chromium
 sublime-text:
   font:
-    face: 'Fira Code'
-    size: 9
+    face: 'Noto Sans Mono'
+    size: 12
 
 # vim: set filetype=eruby.yaml :

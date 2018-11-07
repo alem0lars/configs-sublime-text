@@ -31,6 +31,8 @@
 //                                                                             │
 // ────────────────────────────────────────────────────────────────────────────┤
 <% define_locals do
+  variable "sublime-text.font.face", type: :string, as: :font_face
+  variable "sublime-text.font.size", type: :integer, as: :font_size
 end -%>
 // ────────────────────────────────────────────────────────────────────────────┘
 
@@ -49,13 +51,11 @@ end -%>
     "CVS",
     "node_modules"
   ],
-  "font_face": "Fira Code",
   "font_options":
   [
     "dlig",
     "ss01"
   ],
-  "font_size": 9,
   "highlight_line": true,
   "highlight_modified_tabs": true,
   "ignored_packages":
@@ -77,6 +77,8 @@ end -%>
   "spell_check": true,
   "dictionary": "Packages/Language - English/en_US.dic",
   "trim_trailing_white_space_on_save": true
+	"font_size": <%= local! :font_size %>,
+	"font_face": "<%= local! :font_face %>",
 }
 
 
