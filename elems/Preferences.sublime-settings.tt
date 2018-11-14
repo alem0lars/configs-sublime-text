@@ -76,9 +76,9 @@ end -%>
   "translate_tabs_to_spaces": true,
   "spell_check": true,
   "dictionary": "Packages/Language - English/en_US.dic",
-  "trim_trailing_white_space_on_save": true
+  "trim_trailing_white_space_on_save": true,
 	"font_size": <%= local! :font_size %>,
-	"font_face": "<%= local! :font_face %>",
+	"font_face": "<%= local! :font_face %>"
 }
 
 
